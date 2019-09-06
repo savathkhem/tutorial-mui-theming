@@ -6,7 +6,7 @@ import { ConnectedRouter } from 'connected-react-router';
 
 // THEME
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
-import muiTheme from 'theme/muiTheme';
+import muiTheme from './theme/muiTheme';
 
 // REDUX
 import { Provider } from 'react-redux';

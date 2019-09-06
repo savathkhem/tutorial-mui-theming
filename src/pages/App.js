@@ -4,9 +4,9 @@ import styled, { cx } from 'react-emotion';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import Header from 'parts/Header';
-import Navigator from 'parts/Navigator';
-import Content from 'parts/Content';
+import Header from '../parts/Header';
+import Navigator from '../parts/Navigator';
+import Content from '../parts/Content';
 
 const App = styled(({ className }) => (
   <div className={cx('App', className)}>
